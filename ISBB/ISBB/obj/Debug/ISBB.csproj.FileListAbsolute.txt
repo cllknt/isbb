@@ -1,0 +1,6 @@
+c:\users\cllknt\documents\visual studio 2012\Projects\ISBB\ISBB\bin\ISBB.dll
+c:\users\cllknt\documents\visual studio 2012\Projects\ISBB\ISBB\bin\ISBB.pdb
+c:\users\cllknt\documents\visual studio 2012\Projects\ISBB\ISBB\obj\Debug\ISBB.csprojResolveAssemblyReference.cache
+c:\users\cllknt\documents\visual studio 2012\Projects\ISBB\ISBB\obj\Debug\ISBB.dll
+c:\users\cllknt\documents\visual studio 2012\Projects\ISBB\ISBB\obj\Debug\ISBB.pdb
+C:\Users\cllknt\documents\visual studio 2012\Projects\ISBB\ISBB\obj\Debug\ISBB.dll.licenses

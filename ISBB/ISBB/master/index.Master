@@ -1,0 +1,356 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="ISBB.master.index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <link href="../css/index_menu.css" rel="stylesheet" type="text/css" />
+    <link href="../css/css_ubuntu.css" rel="stylesheet" type="text/css" />
+    <link href="../css/master_index.css" rel="stylesheet" type="text/css" />
+    <link href="../css/footer.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 218px;
+        }
+        .auto-style2 {
+            width: 100px;
+            height: 19px;
+        }
+        .auto-style3 {
+            width: 75px;
+            height: 19px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div class="header">
+    <div class="bin24_div">
+     <div id="menu"><!-- Menu starts here-->
+<ul class="menu"><!-- List starts here -->
+<li><a href="#">ISTATISTIK VE BILGISAYAR BILIMLERI</a><!-- isim bulunacak -->
+
+		<div class="dropdown-1column align_right">
+        
+                <div class="col-demo">
+                
+                    <ul >
+                        <li><a href="#" title="ANASAYFA">Anasayfa</a></li>
+                        <li><a href="#" title="ISBB HAKKINDA">ISBB HAKKINDA</a></li>
+                        <li><a href="#" title="RESIMLER">RESIMLER</a></li>
+                        <li><a href="#" title="Sign in">GIRIS YAP</a></li>
+                        <li><a href="#" title="KAYDOL">KAYDOL</a></li>
+
+                    </ul>   
+                     
+                </div>
+                
+		</div><!-- isim bulunacak burada bitiyor -->  
+	</li>
+	<li><a href="#">DUYURULAR</a><!-- 5 columns starts here -->
+    
+       <div class="dropdown-5columns"><!-- Container 5 columns starts here -->
+        
+        <div class="col-5">
+
+                <asp:Image ID="Image1"  runat="server" ImageUrl="~/images/menu/pictures.png"></asp:Image>
+                <p><asp:Label ID="Label1" runat="server" Text="baslik"></asp:Label>.</p>
+            </div>
+        
+            <div class="col-5">
+                <h2><asp:Label ID="Label2" runat="server" Text="merhba arkadaslar"></asp:Label></h2>
+            </div>
+            
+            <div class="col-1">
+                <asp:Label ID="Label3" runat="server" Text="col_1"></asp:Label>
+                        </div>
+            
+            <div class="col-1">
+                <p class="italic"><asp:Label ID="Label4" runat="server" Text="col_2"></asp:Label></p>
+            </div>
+            
+            <div class="col-1">
+                <p class="blackbox"><asp:Label ID="Label5" runat="server" Text="col_3"></asp:Label></p>
+            </div>
+            
+            <div class="col-1">
+               <asp:Label ID="Label6" runat="server" Text="col_4"></asp:Label>
+                        </div>
+            
+            <div class="col-1">
+                <p class="strong"> <asp:Label ID="Label7" runat="server" Text="col_5    "></asp:Label></p>
+            </div>
+        
+        </div><!-- 5 columns ends here -->
+    
+    </li><!-- Container 5 columns ends here -->
+    
+     <li><a href="#">MEZUNLARIMIZ</a><!-- 4 columns starts here -->
+    
+        <div class="dropdown-4columns"><!-- Container 4 columns starts here -->
+        
+            <div class="col-4">
+                <h2>Links Block 4 columns</h2>
+            </div>
+            
+            <div class="col-1">
+            
+                <ul class="blue">
+                    <li><asp:LinkButton ID="LinkButton1" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton2" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton3" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton4" runat="server">LinkButton</asp:LinkButton></li>
+                </ul>   
+                 
+            </div>
+    
+            <div class="col-1">
+            
+                <ul class="blue">
+                    <li><asp:LinkButton ID="LinkButton5" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton6" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton7" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton8" runat="server">LinkButton</asp:LinkButton></li>
+                </ul>   
+                 
+            </div>
+    
+            <div class="col-1">
+            
+                <ul class="blue">
+                    <li><asp:LinkButton ID="LinkButton9" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton10" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton11" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton12" runat="server">LinkButton</asp:LinkButton></li>
+                </ul>   
+                 
+            </div>
+    
+            <div class="col-1">
+            
+                <ul class="blue">
+                    <li><asp:LinkButton ID="LinkButton13" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton14" runat="server">LinkButton</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton15" runat="server">LinkButton</asp:LinkButton></li>
+                    <asp:LinkButton ID="LinkButton16"  runat="server" Font-Overline="False" ForeColor="White">LinkButton</asp:LinkButton>
+                </ul>   
+                 
+            </div>
+            
+             <div class="col-3">
+                
+                
+                  <p class="textblock"><asp:Image ID="Image2" runat="server" Width="72" Height="72" CssClass=imgclass></asp:Image><asp:Label ID="Label8" runat="server" Text="Label"></asp:Label><asp:Label ID="Label9" Visible=false runat="server" Text="Label"></asp:Label><asp:LinkButton ID="LinkButton17" runat="server">Devamini Oku</asp:LinkButton></p>
+                  <p class="textblock"><asp:Image ID="Image3" runat="server" Width="72" Height="72" CssClass=imgclass></asp:Image><asp:Label ID="Label10" runat="server" Text="Label"></asp:Label><asp:Label ID="Label11" Visible=false runat="server" Text="Label"></asp:Label><asp:LinkButton ID="LinkButton18" runat="server">Devamini Oku</asp:LinkButton></p>
+               
+            </div>
+            
+            <div class="col-1">
+                <p class="blackbox">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            
+        </div><!-- 4 columns ends here -->
+    
+    </li><!-- Container 4 columns ends here -->
+    <li><a href="#">ÖGRENCILERIMIZ</a><!-- 2 columns starts here -->
+    
+        <div class="dropdown-2columns"><!-- Container 2 columns starts here -->
+    
+            <div class="col-1">
+    
+                <ul class="grisbox">
+                    <li><a href="#" title="1.SINIF">1.SINIF</a></li>
+                    <li><a href="#" title="2.SINIF">2.SINIF</a></li>
+                    <li><a href="#" title="3.SINIF">3.SINIF</a></li>
+                    <li><a href="#" title="4.SINIF">4.SINIF</a></li>
+                    <li><a href="#" title="5.SINIF VE ÜSTÜ">5.SINIF VE ÜSTÜ</a></li>
+                </ul>   
+    
+            </div>
+            
+            <div class="col-1">
+    <asp:Image ID="Image4" CssClass="imgclass"  runat="server" ImageUrl="../images/menu/img.png"></asp:Image>
+                 <p class="text"><asp:Label ID="Label12" runat="server" Text="Label"></asp:Label><a href="#">Devamini Oku</a></p>   
+    
+            </div>
+          
+        </div><!-- 2 columns ends here -->
+    
+    </li><!-- Container 2 columns ends here -->
+
+	
+    <li><a href="#">AKADEMIK KADRO</a><!-- 3 columns starts here -->
+    
+        <div class="dropdown-3columns align_right"><!-- Container 3 columns starts here -->
+            
+            <div class="col-3">
+                <h2><asp:Label ID="Label16" runat="server" Text="Label"></asp:Label></h2>
+            </div>
+            
+            <div class="col-1">
+    
+                <ul class="grisbox">
+                   <asp:Repeater ID="Repeater1" runat="server">
+                   <ItemTemplate>
+                   <li><a href="#" title="Home">
+                     <asp:Label ID="Label12" runat="server" Text='<%# Bind ("name") %>'></asp:Label>
+                     <asp:Label ID="Label13" runat="server" Text='<%# Bind ("username") %>'></asp:Label>
+                     </a></li>                  
+                     </ItemTemplate>
+                    </asp:Repeater>
+
+                </ul>   
+    
+            </div>
+            
+            <div class="col-1">
+    
+                <p class="italic blackbox">HOCA NOTLARI AYARLANACAK</p> 
+    
+            </div>
+            
+            <div class="col-1">
+    
+                 <ul class="grisbox">
+                   <asp:Repeater ID="Repeater2" runat="server">
+                   <ItemTemplate>
+                   <li><a href="#" title="Home">
+                     <asp:Label ID="Label14" runat="server" Text='<%# Bind ("name") %>'></asp:Label>
+                     <asp:Label ID="Label15" runat="server" Text='<%# Bind ("username") %>'></asp:Label>
+                     </a></li>                  
+                     </ItemTemplate>
+                    </asp:Repeater>
+
+                </ul>   
+    
+            </div>
+        
+        </div><!-- 3 columns ends here -->
+        
+    </li><!-- Container 3 columns ends here -->
+    
+    <li><a href="#">ILETISIM</a><!-- 5 columns starts here -->
+        </li>
+        </ul>
+        </div>
+        <div class="banner">
+            <embed src="../images/cllknt.swf"  width="150" height="150" wmode="transparent" </embed>
+        </div>
+      <%--  kullanıcı girişi--%>
+        <asp:Panel ID="Panel1" runat="server">
+        <div class="banner1">
+           <table style="width: 150px">
+               <tr >
+                   <td style="width: 80px" >
+                          <h6> Kullanıcı Adı</h6>
+                   </td>
+                   <td style="width: 70px">
+                         <asp:TextBox ID="TextBox1" runat="server" Height="10px" Width="70px" Font-Size="Smaller"></asp:TextBox>
+                   </td>
+                </tr>
+               <tr>
+                   
+                        <td style="width: 80px">
+                      <h6> Şifre</h6>
+                   </td>
+                    <td style="width: 70px">
+                <asp:TextBox ID="TextBox2" runat="server" Font-Size="Smaller" Height="10px" Width="70px"></asp:TextBox>
+                   </td>
+            
+                    
+              </tr>
+         
+            
+               
+          </table>
+          
+                   
+                    <asp:ImageButton ID="ImageButton1" ImageUrl="~/images/btn.png" runat="server" />
+         <table>
+             <tr>
+                 <td><a href="#" ><h5>Kaydol</h5></a></td>
+                <td><a href="#" ><h5>|Şifremi Unuttum</h5></a></td>          
+             </tr>
+             
+          </table>
+           
+
+       </div>
+      </asp:Panel>
+
+    </div>
+      </div>
+     <div class="anadiv">
+    
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+       
+        
+        <p>
+            <br />
+           </p>
+        
+       
+        
+        </asp:ContentPlaceHolder>
+    </div>
+     <div class="page">
+			<div class="footer">
+				<div>
+					<div>
+						<h4>Bana Özel4>
+						zel Sayfasına Yönlendirilecek buraya düzgn yazı eklenecek
+						</h4>
+						<a href="#">Sayfama Git</a>
+					</div>
+					<div>
+						<h4>Site Haritası</h4>
+						<ul>
+							<li>
+								<a href="#">Ana Sayfa</a>
+							</li>
+						
+							<li>
+								<a href="#">Akademik Kadro</a>
+							</li>
+							<li>
+								<a href="#">Hakkımızda</a>
+							</li>
+							<li>
+								<a href="#">Duyurular</a>
+							</li>
+							<li>
+								<a href="#">Mezunlarımız</a>
+							</li>
+                            	<li>
+								<a href="#">Öğrencilerimiz</a>
+							</li>
+                            
+							
+						</ul>
+					</div>
+					<div class="connect">
+						<h4>Bizi Takip Edin</h4>
+						<a href="http://www.facebook.com/clllknt" id="twitter">twitter</a> <a href="http://www.facebook.com/clllknt/" id="facebook">facebook</a> <a href="http://www.facebook.com/clllknt/" id="googleplus">google+</a>
+					</div>	
+                   
+					<p style="clear:both">
+                        Copyright © 2014-2015 Tüm Hakları <a style="color:red" href="http://www.facebook.com/clllknt"> Saklıdır.</a>
+					</p>  
+                   
+                   
+				</div>
+                <p></p>
+			
+			</div>
+		
+	</div>
+    </form>
+</body>
+</html>

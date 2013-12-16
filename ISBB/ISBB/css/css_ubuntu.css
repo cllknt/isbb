@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Ubuntu Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/ubuntucondensed/v3/DBCt-NXN57MTAFjitYxdrMd-vqFyeuiaDIrtTqsKQLw.eot);
+  src: local('Ubuntu Condensed'), local('UbuntuCondensed-Regular'), url(http://themes.googleusercontent.com/static/fonts/ubuntucondensed/v3/DBCt-NXN57MTAFjitYxdrMd-vqFyeuiaDIrtTqsKQLw.eot) format('embedded-opentype'), url(http://themes.googleusercontent.com/static/fonts/ubuntucondensed/v3/DBCt-NXN57MTAFjitYxdrO3ikv6SQm_yYbVf3nddkGw.woff) format('woff');
+}
